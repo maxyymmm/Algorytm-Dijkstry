@@ -4,7 +4,7 @@ Algorytm ten służy do znajdowania najkrótszych ścieżek od wierzchołka źr�
 Główna funkcja w tej implementacji to **dijkstra(G, w, s)**. Przyjmuje ona trzy parametry:
 
 **G**: Słownik reprezentujący graf, gdzie klucze to wierzchołki, a wartości to listy sąsiednich wierzchołków.
-**w**: Słownik reprezentujący wagi krawędzi, gdzie klucze to krotki (u, v) reprezentujące krawędź między wierzchołkami u i v, a wartości to odpowiadające im wagi.
+**w**: Słownik reprezentujący wagi krawędzi, gdzie klucze to krotki **(u, v)** reprezentujące krawędź między wierzchołkami **u** i **v**, a wartości to odpowiadające im wagi.
 **s**: Wierzchołek źródłowy, od którego mają być znalezione najkrótsze ścieżki.
 Algorytm działa w następujący sposób:
 
